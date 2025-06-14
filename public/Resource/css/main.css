@@ -1663,6 +1663,17 @@ input::-moz-focus-inner {
   line-height: calc(78px - (18px * 2));
 }
 
+.header-nav-wrap.is-open {
+  display: block;
+  position: absolute;
+  top: 70px; /* below your header */
+  right: 0;
+  background: #000;
+  width: 100%;
+  z-index: 1000;
+  align-content: center;
+}
+
 .header-main-nav {
   font-family: "Roboto", sans-serif;
   font-size: 13px;

@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const Home = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       {/* <div id="preloader">
@@ -10,13 +14,13 @@ const Home = () => {
           <a className="site-logo" href="index.html">
             <img
               src="Resource/nk-logo-nobg3.png"
-              style={{ objectFit: "contain", height: "80px" }}
+              style={{ objectFit: "contain", height: "70px" }}
               alt="Homepage"
             />
           </a>
         </div>
 
-        <nav className="header-nav-wrap">
+        <nav className={`header-nav-wrap ${menuOpen ? "is-open" : ""}`}>
           <ul className="header-main-nav">
             <li className="current">
               <a className="smoothscroll" href="#intro" title="intro">
@@ -58,7 +62,14 @@ const Home = () => {
           </ul>
         </nav>
 
-        <a className="header-menu-toggle" href="#">
+        <a
+          className="header-menu-toggle"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            setMenuOpen(!menuOpen);
+          }}
+        >
           <span>Menu</span>
         </a>
       </header>
@@ -138,7 +149,7 @@ const Home = () => {
             </div>
             <div className="column large-half tab-full" data-aos="fade-up">
               <a
-                href="Resource/Neel_Buhecha_Resume_xRect-1.pdf"
+                href="Resource/Neel-Buhecha-resume-jun.pdf"
                 className="btn btn--primary full-width"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -602,7 +613,12 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="#0" rel="noopener,noreferer" title="Instagram">
+                <a
+                  href="https://www.instagram.com/n.k._buhecha?igsh=MWtpdHU3ajk3Z2ZqZA=="
+                  target="_blank"
+                  rel="noopener,noreferer"
+                  title="Instagram"
+                >
                   Instagram
                 </a>
               </li>
