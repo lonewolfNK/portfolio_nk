@@ -11,7 +11,7 @@ const Home = () => {
 
       <header className="s-header">
         <div className="header-logo">
-          <a className="site-logo" href="index.html">
+          <a className="site-logo" href="javascript:void(0);">
             <img
               src="Resource/nk-logo-nobg3.png"
               style={{ objectFit: "contain", height: "70px" }}
