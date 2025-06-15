@@ -522,7 +522,7 @@ const Home = () => {
               <div className="item-folio">
                 <div className="item-folio__thumb">
                   <a
-                    href="Resource/images/OverTIme.png"
+                    href="Resource/images/OverTime.png"
                     className="thumb-link"
                     title="The Beetle Car"
                     data-size="1050x700"
@@ -530,8 +530,8 @@ const Home = () => {
                     rel="noopener,noreferer"
                   >
                     <img
-                      src="Resource/images/OverTIme.png"
-                      srcSet="Resource/images/OverTIme.png 1x, Resource/images/OverTIme.png 2x"
+                      src="Resource/images/OverTime.png"
+                      srcSet="Resource/images/OverTime.png 1x, Resource/images/OverTime.png 2x"
                       alt=""
                     />
                   </a>
