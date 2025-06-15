@@ -183,11 +183,11 @@ const Home = () => {
                   </div>
                   <div className="timeline__desc">
                     <p>
-                      Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                      magna consectetur nisi cupidatat laboris esse eiusmod
-                      deserunt aute do quis velit esse sed Ut proident cupidatat
-                      nulla esse cillum laborum occaecat nostrud sit dolor
-                      incididunt amet est occaecat nisi.
+                      Completed my higher secondary studies with a focus on
+                      science and mathematics, building a solid foundation in
+                      logical reasoning, problem-solving, and analytical
+                      thinking. This period nurtured my passion for technology
+                      and set the stage for my future in engineering
                     </p>
                   </div>
                 </div>
@@ -201,11 +201,12 @@ const Home = () => {
                   </div>
                   <div className="timeline__desc">
                     <p>
-                      Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                      magna consectetur nisi cupidatat laboris esse eiusmod
-                      deserunt aute do quis velit esse sed Ut proident cupidatat
-                      nulla esse cillum laborum occaecat nostrud sit dolor
-                      incididunt amet est occaecat nisi.
+                      Graduated with a degree in Computer Engineering, where I
+                      developed key skills in software development, web
+                      technologies, and database management. I actively
+                      participated in various technical projects and team
+                      collaborations, enhancing both my technical and soft
+                      skills.
                     </p>
                   </div>
                 </div>
@@ -227,11 +228,12 @@ const Home = () => {
                   </div>
                   <div className="timeline__desc">
                     <p>
-                      Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                      magna consectetur nisi cupidatat laboris esse eiusmod
-                      deserunt aute do quis velit esse sed Ut proident cupidatat
-                      nulla esse cillum laborum occaecat nostrud sit dolor
-                      incididunt amet est occaecat nisi.
+                      Working as a Full Stack Web Developer, where I design and
+                      build dynamic, responsive web applications using the MERN
+                      stack and other modern technologies. I contribute to all
+                      stages of development—from planning and coding to
+                      deployment—while continuously learning and adapting to new
+                      tools and best practices.
                     </p>
                   </div>
                 </div>
